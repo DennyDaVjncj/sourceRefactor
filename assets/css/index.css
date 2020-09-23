@@ -15,6 +15,7 @@ header {
     color: #ffffff;
 }
 
+/* any selectors in this format are having their child element addressed */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -54,6 +55,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* relative path being used to fetch content */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -86,19 +88,19 @@ p {
     background-color: #2589bd;
 }
 
-.bennyTime {
+.seoDiv {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-.bennyTime h3  {
+.seoDiv h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-.bennyTime img {
+.seoDiv img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -113,6 +115,7 @@ p {
     color: #ffffff;
 }
 
+/* a way to further specify what our class is to affect */
 .info img {
     max-height: 200px;
 }
